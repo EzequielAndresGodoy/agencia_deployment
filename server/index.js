@@ -28,7 +28,7 @@ app.use( (req, res, next) => {
 });
 
 //Definir la carpeta publica
-app.use(express.static('../public'))
+app.use(express.static('public'))
 
 //Agregar router
 app.use('/', router);
