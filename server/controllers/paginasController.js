@@ -13,7 +13,7 @@ const paginaInicio = async (req, res) => { // req - lo que enviamos | res - lo q
     try {
         const resultado = await Promise.all( promiseDB );
 
-        res.render('inicio', {
+        res.render('../views/inicio', {
             pagina: 'Inicio',
             clase: 'home',
             viajes: resultado[0],
