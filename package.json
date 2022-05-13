@@ -1,0 +1,23 @@
+{
+  "name": "agenciadeviajes",
+  "version": "1.0.0",
+  "description": "Proyecto viajes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "type": "module",
+  "author": "Ezequiel Andres Godoy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
